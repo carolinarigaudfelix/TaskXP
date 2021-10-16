@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}Lista de Tarefas{% endblock %}
+
+{%block content%}
+<div class ="offset-1 col-10 list-div"> <!--As tarefas vão ocupar apenas 10 colunas, e espaçamento de um (offset)-->
+    <h1>{{task.title}}</h1>
+    <p>{{task.description}}</p>
+</div>
+{% endblock %}
